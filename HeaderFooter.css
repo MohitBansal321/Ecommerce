@@ -1,0 +1,87 @@
+
+/* Header part */
+.nav{
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:0px;
+    /* height: 10vh; */
+}
+.logo{
+    margin:20px;
+    font-size: 40px;
+    
+}
+.nav input{
+    margin-left:10px;
+    border-radius:7px;
+    height:30px;
+    background-color:#EDECEC;
+    padding-left: 5px;
+}
+.nav:first-child{
+    margin-bottom: 10px;
+}
+.login-fav-nav{
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-right:40px;
+}
+.nav-2{
+    background-color:#EDECEC;
+    height:50px;
+    display:flex;
+    align-items: center;
+}
+.nav-2 button{
+    border:0px;
+    /* background-color: white; */
+    font-size: 18px;
+
+}
+
+.upper{
+    margin-top: 70px;
+    display:flex;
+    margin-left:70px;
+    grid-gap:200px;
+    
+    
+}
+.flex li{
+     list-style-type: none;
+     padding: 5px;
+}
+#a1{
+    margin-left: 45px;
+}  
+#a3{
+    margin-left:40px;  
+}
+#a2{
+    margin-left: 60px;
+}
+#a5{
+    margin-left:50px;
+}
+.font1{
+    margin-left: 30px;
+    display:flex;
+    
+}
+.font1 a{
+    padding:10px;
+}
+#foot{
+    width:80%;
+}
+.foot1 li{
+    display:inline-block;
+    list-style-type: none;
+    padding:5px;
+    margin-left: 80px;
+}
+#p1{
+    text-align: center;
+}
