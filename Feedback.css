@@ -1,3 +1,42 @@
+.nav{
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 10vh; */
+}
+.logo{
+    margin:20px;
+    font-size: 40px;
+    
+}
+.nav input{
+    margin-left:10px;
+    border-radius:7px;
+    height:30px;
+    background-color:#EDECEC;
+    padding-left: 5px;
+}
+.nav:first-child{
+    margin-bottom: 10px;
+}
+.login-fav-nav{
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-right:40px;
+}
+.nav-2{
+    background-color:#EDECEC;
+    height:50px;
+    display:flex;
+    align-items: center;
+}
+.nav-2 button{
+    border:0px;
+    /* background-color: white; */
+    font-size: 18px;
+
+}
 h1{
     padding-top:5px;
     text-align: center;
@@ -16,7 +55,7 @@ table input,textarea{
     /* width: 90vw; */
     margin-left:12% ;
     margin-right:12%;
-    background-color:#dae1fd;
+    background-color:#cbd2ea;
 }
 .submit-btn{
     width:180px;
